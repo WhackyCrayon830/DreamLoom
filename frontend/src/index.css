@@ -28,6 +28,8 @@ body {
 
 :root {
 
+  --titlebar-height: 48px;
+
   --background: oklch(1 0 0);
 
   --foreground: oklch(0.147 0.004 49.3);
@@ -239,4 +241,6 @@ body {
   --radius-3xl: calc(var(--radius) * 2.2);
 
   --radius-4xl: calc(var(--radius) * 2.6);
+
+  --titlebar:
 }
